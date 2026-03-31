@@ -6,24 +6,24 @@ const PORT = 8080
 
 // Define a map of files to serve
 const files = {
-    "/build/SpotifyScript.js": {
-        content: await readFile("build/SpotifyScript.js"),
+    "/build/InternetArchiveScript.js": {
+        content: await readFile("build/InternetArchiveScript.js"),
         type: "application/javascript",
     },
-    "/build/SpotifyScript.ts": {
-        content: await readFile("build/SpotifyScript.ts"),
+    "/build/InternetArchiveScript.ts": {
+        content: await readFile("build/InternetArchiveScript.ts"),
         type: "application/x-typescript",
     },
-    "/build/SpotifyScript.js.map": {
-        content: await readFile("build/SpotifyScript.js.map"),
+    "/build/InternetArchiveScript.js.map": {
+        content: await readFile("build/InternetArchiveScript.js.map"),
         type: "application/json",
     },
-    "/build/SpotifyConfig.json": {
-        content: await readFile("build/SpotifyConfig.json"),
+    "/build/InternetArchiveConfig.json": {
+        content: await readFile("build/InternetArchiveConfig.json"),
         type: "application/json",
     },
-    "/build/SpotifyIcon.png": {
-        content: await readFile("build/SpotifyIcon.png"),
+    "/build/InternetArchiveIcon.png": {
+        content: await readFile("build/InternetArchiveIcon.png"),
         type: "image/png",
     },
 } as const
@@ -50,15 +50,15 @@ function getLocalIPAddress(): string {
 createServer((req, res) => {
     const file = (() => {
         switch (req.url) {
-            case "/build/SpotifyScript.js":
+            case "/build/InternetArchiveScript.js":
                 return files[req.url]
-            case "/build/SpotifyScript.ts":
+            case "/build/InternetArchiveScript.ts":
                 return files[req.url]
-            case "/build/SpotifyScript.js.map":
+            case "/build/InternetArchiveScript.js.map":
                 return files[req.url]
-            case "/build/SpotifyConfig.json":
+            case "/build/InternetArchiveConfig.json":
                 return files[req.url]
-            case "/build/SpotifyIcon.png":
+            case "/build/InternetArchiveIcon.png":
                 return files[req.url]
             default:
                 return undefined
@@ -75,5 +75,5 @@ createServer((req, res) => {
     res.end("File not found")
     return
 }).listen(PORT, () => {
-    console.log(`Server running at http://${getLocalIPAddress()}:${PORT}/build/SpotifyConfig.json`)
+    console.log(`Server running at http://${getLocalIPAddress()}:${PORT}/build/InternetArchiveConfig.json`)
 })

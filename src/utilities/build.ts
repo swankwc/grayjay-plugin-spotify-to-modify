@@ -45,12 +45,12 @@ async function modifyFile(filePath: string, offset: number) {
     })
 }
 
-await copyFile("src/SpotifyScript.ts", "build/SpotifyScript.ts")
+await copyFile("src/InternetArchiveScript.ts", "build/InternetArchiveScript.ts")
 await copyFile("src/types.ts", "build/types.ts")
 if (argv[2] !== undefined) {
     execFileSync("tsc", ["--mapRoot", argv[2], "--sourceRoot", argv[2]], { stdio: 'inherit' })
 } else {
     execFileSync("tsc", { stdio: 'inherit' })
 }
-modifyFile("build/SpotifyScript.ts", 0)
-modifyFile("build/SpotifyScript.js", 1)
+modifyFile("build/InternetArchiveScript.ts", 0)
+modifyFile("build/InternetArchiveScript.js", 1)

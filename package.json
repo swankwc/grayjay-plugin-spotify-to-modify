@@ -1,21 +1,22 @@
 {
-    "name": "grayjay-spotify-plugin",
+    "name": "grayjay-internet-archive-plugin",
     "version": "1.0.0",
-    "description": "make spotify work",
-    "homepage": "https://gitlab.futo.org/videostreaming/plugins/spotify",
+    "description": "Internet Archive video plugin for Grayjay",
+    "homepage": "https://github.com/swankwc/grayjay-plugin-spotify-to-modify",
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "git+https://gitlab.futo.org/videostreaming/plugins/spotify.git"
+        "url": "git+https://github.com/swankwc/grayjay-plugin-spotify-to-modify.git"
     },
     "keywords": [
-        "spotify",
-        "grayjay"
+        "internet-archive",
+        "grayjay",
+        "video"
     ],
-    "author": "Kai DeLorenzo",
+    "author": "Jules",
     "license": "MPL-2.0",
     "bugs": {
-        "url": "https://gitlab.futo.org/videostreaming/plugins/spotify/issues"
+        "url": "https://github.com/swankwc/grayjay-plugin-spotify-to-modify/issues"
     },
     "dependencies": {},
     "devDependencies": {

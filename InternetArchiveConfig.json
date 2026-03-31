@@ -1,0 +1,33 @@
+{
+    "$schema": "https://github.com/MithrilGoat/GrayJay-Plugin-Schema/releases/latest/download/Schema.json",
+    "name": "Internet Archive",
+    "description": "Watch movies, TV shows, and videos from the Internet Archive",
+    "author": "swankwc",
+    "authorUrl": "https://github.com/swankwc",
+    "platformUrl": "https://archive.org",
+    "sourceUrl": "https://raw.githubusercontent.com/swankwc/grayjay-plugin-spotify-to-modify/main/InternetArchiveConfig.json",
+    "repositoryUrl": "https://github.com/swankwc/grayjay-plugin-spotify-to-modify",
+    "scriptUrl": "https://raw.githubusercontent.com/swankwc/grayjay-plugin-spotify-to-modify/main/build/InternetArchiveScript.js",
+    "version": 2,
+    "iconUrl": "https://raw.githubusercontent.com/swankwc/grayjay-plugin-spotify-to-modify/main/InternetArchiveIcon.png",
+    "id": "7f8e9d1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+    "scriptSignature": "",
+    "scriptPublicKey": "",
+    "packages": [
+        "Http"
+    ],
+    "allowEval": false,
+    "allowUrls": [
+        "archive.org"
+    ],
+    "authentication": {
+    },
+    "developerSubmitUrl": "https://dev.grayjay.app/api/Dev/Submit",
+    "settings": [
+    ],
+    "changelog": {
+        "1": [
+            "Initial Internet Archive plugin"
+        ]
+    }
+}
