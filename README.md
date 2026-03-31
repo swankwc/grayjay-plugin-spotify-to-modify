@@ -17,8 +17,16 @@ A high-quality Grayjay source plugin for **Internet Archive (archive.org)** focu
 
 ## Installation in Grayjay
 
-1. Enable Developer Mode in Grayjay.
-2. Add a new source using the URL from your local server (e.g., `http://<your-ip>:8080/build/InternetArchiveConfig.json`).
+### Quick Install (Latest Version)
+1. Enable **Developer Mode** in Grayjay (Settings -> About -> Tap version multiple times).
+2. Go to **Sources** -> **Add Source** -> **Import from URL**.
+3. Enter the following URL:
+   `https://raw.githubusercontent.com/swankwc/grayjay-plugin-spotify-to-modify/main/InternetArchiveConfig.json`
+
+### Local Development Install
+1. Run `npm run build` and `npm run dev` to start a local server.
+2. In Grayjay, add a new source using your local IP:
+   `http://<your-ip>:8080/build/InternetArchiveConfig.json`
 
 ## Signing
 
