@@ -1,33 +1,31 @@
 {
-    "$schema": "https://github.com/MithrilGoat/GrayJay-Plugin-Schema/releases/latest/download/Schema.json",
-    "name": "Internet Archive",
-    "description": "Watch movies, TV shows, and videos from the Internet Archive",
-    "author": "swankwc",
-    "authorUrl": "https://github.com/swankwc",
-    "platformUrl": "https://archive.org",
-    "sourceUrl": "https://swankwc.github.io/grayjay-plugin-spotify-to-modify/InternetArchiveConfig.json",
-    "repositoryUrl": "https://github.com/swankwc/grayjay-plugin-spotify-to-modify",
-    "scriptUrl": "./InternetArchiveScript.js",
-    "version": 4,
-    "iconUrl": "./InternetArchiveIcon.png",
-    "id": "7f8e9d1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
-    "scriptSignature": "",
-    "scriptPublicKey": "",
-    "packages": [
-        "Http"
-    ],
-    "allowEval": false,
-    "allowUrls": [
-        "archive.org"
-    ],
-    "authentication": {
-    },
-    "developerSubmitUrl": "https://dev.grayjay.app/api/Dev/Submit",
-    "settings": [
-    ],
-    "changelog": {
-        "1": [
-            "Initial Internet Archive plugin"
-        ]
-    }
+  "$schema": "https://github.com/MithrilGoat/GrayJay-Plugin-Schema/releases/latest/download/Schema.json",
+  "name": "Internet Archive",
+  "description": "Watch movies, TV shows, and videos from the Internet Archive",
+  "author": "swankwc",
+  "authorUrl": "https://github.com/swankwc",
+  "platformUrl": "https://archive.org",
+  "sourceUrl": "https://swankwc.github.io/grayjay-plugin-spotify-to-modify/InternetArchiveConfig.json",
+  "repositoryUrl": "https://github.com/swankwc/grayjay-plugin-spotify-to-modify",
+  "scriptUrl": "./InternetArchiveScript.js",
+  "version": 4,
+  "iconUrl": "./InternetArchiveIcon.png",
+  "id": "7f8e9d1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+  "scriptSignature": "Yawv6jHs5tis4yRapWz77/BKEXzMRJjh7n/gTppQbcdUXxjRT951UMuZiKQG1lNRQvkjNyMhMUg+FGBKzBJVNjiODBla2rI3F8FlFodpAddxkzhqBzqs6XVbke9s2GQKP4sq6NCOSAiB4FcW/0lU2c2IqpC+lC8h1/JhJlrDNWTOsG43+xlneUbU+MyD4OhgnftOgRMnLx2yVc0o/dH1nMXvXsCNL8HwLBbDHaKOSc+VRpw2dvEKi0EZwXm4Q70ANtB7eLTHZRhiLT8XiijjJRfrXvoulYkRP+gQ32wgz4hIIxOwi+INY+39PVEVWN2MCtfm23KwwZAwMTNQOosJYA==",
+  "scriptPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk5+Ve2iFJuIpFtcWoptjXMKBvto2TZcFyCl3e6K6j6l/XiqwCMgbjdLxZcuxP5uUaWHP1Llw4m4idGpoKIaV6LXWoFIQNNcfcImP9eDm7PHdGWrv+J/Yey53Wtfjnxe5QtyZML/WoAm1PGuo15gw4m1qwr1CXJ9ktvLBsS6OS97guMpBU0Op+0+X3CXqTk1tXpDclLBaacn7O2y5lRDIWpZZZD77AOFEeprrvMZgRC3z87ndr2MqpAaAngz4AyuIuqSB2OqqVUEWMzEEQN4+9G5pimadIIkynJA5dbqYkZhCp5YF71eizlqWVJGgBonqZpmnmP49J+/wn5E0vNXv5wIDAQAB",
+  "packages": [
+    "Http"
+  ],
+  "allowEval": false,
+  "allowUrls": [
+    "archive.org"
+  ],
+  "authentication": {},
+  "developerSubmitUrl": "https://dev.grayjay.app/api/Dev/Submit",
+  "settings": [],
+  "changelog": {
+    "1": [
+      "Initial Internet Archive plugin"
+    ]
+  }
 }

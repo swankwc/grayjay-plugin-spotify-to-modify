@@ -7,3 +7,7 @@ _dist
 !eslint.config.js
 !build/*
 build/types.js*
+!InternetArchiveScript.js
+!docs/InternetArchiveScript.js
+!InternetArchiveIcon.png
+!docs/InternetArchiveIcon.png
