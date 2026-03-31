@@ -288,7 +288,5 @@ class IAChannelPager extends ChannelPager {
 }
 //#endregion
 // Used for unit testing
-export { parseRuntime };
-// @ts-ignore
-console.log(parseRuntime);
+// export { parseRuntime };
 //# sourceMappingURL=InternetArchiveScript.js.map

@@ -341,6 +341,3 @@ class IAChannelPager extends ChannelPager {
 
 // Used for unit testing
 export { parseRuntime }
-
-// @ts-ignore
-console.log(parseRuntime)

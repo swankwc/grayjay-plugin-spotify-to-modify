@@ -4,13 +4,20 @@
 JS_FILE_PATH=$1
 CONFIG_FILE_PATH=$2
 
-# Decode and save the private key to a temporary file
-echo "$SIGNING_PRIVATE_KEY" | base64 -d > tmp_private_key.pem
+# Use private key from environment or file
+if [ -n "$SIGNING_PRIVATE_KEY" ]; then
+    echo "$SIGNING_PRIVATE_KEY" | base64 -d > tmp_private_key.pem
+elif [ -f "id_rsa" ]; then
+    cp id_rsa tmp_private_key.pem
+else
+    echo "Error: SIGNING_PRIVATE_KEY env var not set and id_rsa file not found."
+    exit 1
+fi
 
 # Validate private key
 if ! openssl rsa -check -noout -in tmp_private_key.pem > /dev/null 2>&1; then
   echo "Invalid private key."
-  rm tmp_private_key.pem
+  rm -f tmp_private_key.pem
   exit 1
 fi
 
