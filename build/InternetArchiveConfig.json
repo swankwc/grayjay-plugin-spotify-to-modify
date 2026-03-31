@@ -5,14 +5,14 @@
     "author": "Jules",
     "authorUrl": "https://archive.org",
     "platformUrl": "https://archive.org",
-    "sourceUrl": "https://github.com/swankwc/grayjay-plugin-spotify-to-modify/raw/main/build/InternetArchiveConfig.json",
+    "sourceUrl": "https://github.com/swankwc/grayjay-plugin-spotify-to-modify/raw/master/build/InternetArchiveConfig.json",
     "repositoryUrl": "https://github.com/swankwc/grayjay-plugin-spotify-to-modify",
     "scriptUrl": "./InternetArchiveScript.js",
     "version": 1,
     "iconUrl": "./InternetArchiveIcon.png",
     "id": "7f8e9d1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
-    "scriptSignature": "",
-    "scriptPublicKey": "",
+    "scriptSignature": "FHOMHSlWNRKK6j6tZKH4O6Q50UiDQi4HdlFPwHbTrYgsVvCI1NT01ZFkY/evxyaR3Nu8OUdIibeij3kcvkDxlxrfGt3g+/S1IgIl8rnTEzh1r15T9X48wk3LDibBSCk8Hf1mX3iIonqlTc2VGxHL21dShcv+ZrRMlIluanHZtzfvO3U6PwzEebegpKK+uiGBEyFwLrofVZt+8nSqONWt7MEgnhNPPFNAtGu2PXdNwfwEgSFxKu8lEJ1uyirGp3TEdYGM0AL4ZYkegw7NTesYJU/mB1/ZrO8K6q8alS9dCzwIN22y4Lp/h/mLcbEz4IoJsUl3U7a8iWXXKfPWmDZdse+z0pEFaxhMhqrhL+FdUqJG0rP+R4XUn1u/jgTOmz9xw7v1QT0CcffKqhbFaHirW30qYs2DY3Rublf0JMB5tEv183UFlVVtW03/PQ9aw3UjJr1qHPFGNEPHy+9GtTK3S0LAPwv2xX9tIwCsDuk6S0zGbpMnbgRoLHx3eJhELbt0XTelEKwhuxyZSrTv5mHt5ohfJw5rva+oT+SpXq4p8s/iqhONGvZOouoa6fBP+dz6Kim31pCoKEThI7J0aB+6VCp4POfHk+XtXPcY9M2/P/dRx7FtS1Q4rj1zPZ2gqCzzmk0XAJqZ8cL/z8wCRLWmUb1Vagj6h95gIGj7I4JhLx8=",
+    "scriptPublicKey": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqr5c6qHXuU0t5FVYgvQquAIFmi+KJT1mwjuDRZO0uDNsLW1p5tA7ozFNLmSuKIX9h8Hr775ES7LsGSeGWxEt/q7MmqG1NcMZPyNeDlBiberMNxYV1I6xBh0p/p1AYEOwtgRney4wGIisKdhYX7CyaumPcWMb7kvD7+l2Uy7UpL5eDicwq3yu7KNC7mJHejPLxDt6L+JViJcaPU1vE2ynqN837j2AD1T1WnpytyFZ0cbehgi7rI971gzTnWMH1oP9QHnLwn/Be3cQztvHpRreg2jrcHRwhF5aQuTO8bsWbuWOYlsHI8wxX6e586muqLQ2IkagOy5NSercySytmBDBoPR7CM3m4f1tlRnyZ4VOOdkQOtisqmNVOcjuANpk/kj6kYv+ATmDPvzFy4Veu8IcvhRadWun7qcsgxZITymyXBLQnRIFLGDAb5HpefA6UdxNpuD6HBkXQ6j6UEK7j1PtQR/GGWhoi3DUm2WF0SiwwHzwc99zb7eDORPgkBagzQNpC7itmHuHbdK19RhFS3pKY7xiUTSoflo4+deYWoiiHOWCKRGC4btBl0ML5tT5aDt4lgdkF5WQHRe4rzGzo6Q4xo4pZh6QrEjc05Uxw9ROUrdv3F8peoka8uInARV0aYVNIiJ7u0LyBnX7M6VT6BBQHLx4bMwdkm4tEz/CaLlJFykCAwEAAQ==",
     "packages": [
         "Http"
     ],
@@ -20,11 +20,9 @@
     "allowUrls": [
         "archive.org"
     ],
-    "authentication": {
-    },
+    "authentication": {},
     "developerSubmitUrl": "https://dev.grayjay.app/api/Dev/Submit",
-    "settings": [
-    ],
+    "settings": [],
     "changelog": {
         "1": [
             "Initial Internet Archive plugin"
